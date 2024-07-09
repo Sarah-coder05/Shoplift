@@ -1,0 +1,141 @@
+
+nav{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: #efefef;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    
+    ul{
+        list-style-type: none;
+        font-size: 20px;
+        .dropdown{
+            color: black;
+            padding-top: 6px;
+        }
+        .categories{
+            width: 156px;
+            height: 44px;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 10px;
+            margin: 10px 30px 10px 52px;
+            padding: 0px 12px;
+        }
+      
+        .search{
+            width: 480px;
+            height: 52px;
+            display: flex;
+            align-items: center;
+            gap: 9px;
+            margin: 6px 2px 6px 30px;
+            padding: 14px 15px;
+            border-radius: 20px;
+            background-color: #fff;
+        }
+    }
+    .categories-search{
+        display: flex;
+    }
+    .account-cart{
+        display: flex;
+        gap: 30px;
+        .account{
+            width: 169px;
+            height: 48px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 12px;
+        }
+        .cart{
+            width: 99px;
+            height: 44px;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            padding: 10px 12px;
+        }
+    }
+}
+
+.second-top{
+    background-image: url('./Asset/Frame 8.png');
+    background-size: cover;
+    display: flex;
+    margin: 100px 30px;
+    justify-content: space-around;
+    position: absolute;
+    width: 97%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    .onestop{
+        background-image: url('./Asset/Rectangle 1 (1).png');
+        background-size: cover;
+        height: 101.5px;
+        border-radius: 10px;
+        font-size: 37px;
+        margin: 108.7px 306.9px 57.8px 0;
+        padding: 27.2px 20.2px 27.2px 20.2px;
+        .shoes{
+            color: #2533b1;
+        }
+        .sneakers{
+            color:#e71b58;
+        }
+    }
+}
+
+h1{
+    font-style: italic;
+    padding-left: 40px;
+}
+
+p{
+    font-weight: bolder;
+    font-size: 17px;
+    text-align: start;
+}
+
+.hot-deal{
+    border: 1px solid;
+    position: relative;
+    background-color: white;
+    top: 20px;
+    z-index: 0;
+    margin: 255px 255px 60px 255px;
+    padding: 20px;
+    width: 70%;
+
+    .hot{
+        color: #ff0101;
+    }
+    .hot-deals{
+        display: flex;
+        gap: 16px;
+        justify-content: center;
+       
+        .deals{
+            text-align: center;
+            width: 120px;
+            padding: 15px;
+            border-radius: 20px;
+            background-color: #f1f1f1;
+        }
+    }
+}
+.collections{
+    display: flex;
+    gap: 25px;
+    margin: 17px 60px 0 59px;
+    padding: 19px 22px;
+    border-radius: 20px;
+    box-shadow: 0 1px 23.1px -7px rgba(0, 0, 0, 0.25);
+    margin-bottom: 50px;
+}

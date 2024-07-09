@@ -1,0 +1,44 @@
+.order-summary{
+    
+    // width: 654px;
+    height: 566px;
+    display: flex;
+    flex-direction: column;
+    // justify-content: flex-start;
+    align-items: center;
+    gap: 22px;
+    margin: 11px 433px 19px;
+    padding: 0;
+    background-color: #fafafa;
+    .product{
+        height: 136px;
+        // align-self: stretch;
+        // flex-grow: 0;
+        display: flex;
+        // justify-content: space-between;
+        padding: 0px 40px;
+        border-radius: 10px;
+        background-color: #fff;
+      
+    }
+    .payment{
+        display: flex;
+        gap: 5px;
+        margin: 0px;
+        padding: 0px;
+        // align-items: center;
+        // justify-content: center;
+        
+        .circle{
+            padding-top: 22px;
+        }
+    }
+    .payy{
+        margin: 19px 433px 0;
+        width: 574px;
+        height: 44px;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #feac00
+    }
+}
