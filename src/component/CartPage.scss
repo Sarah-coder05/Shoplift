@@ -8,7 +8,7 @@
     display: flex;
     margin-right: 20px;
     hr{
-        width: 370px;
+        // width: 370px;
         margin: 0px;
         height: 1px;
         background-color: gray;
@@ -36,11 +36,17 @@
             }
             .checkout{
                 border: 0px;
+                width: 300px;
                 gap: 10px;
-                margin: 10px 0 0 450px;
+                margin: 10px 0 0 350px;
                 padding: 8px;
                 border-radius: 10px;
                 background-color: #feac00;
+                a{
+                    font-size: 14px;
+                    text-decoration: none;
+                    color: black;
+                }
             }
         }
     }

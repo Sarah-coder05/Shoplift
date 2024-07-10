@@ -18,6 +18,15 @@
         display: flex;
         flex-direction: column;
         gap: 30px;
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 14px;
+        }
+        a:hover{
+            font-size: 17px;
+            padding: 13px;
+        }
         .addcart{
             width: 444px;
             height: 35px;

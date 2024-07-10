@@ -7,10 +7,12 @@ import { FaNairaSign } from "react-icons/fa6";
 import { IoStar } from "react-icons/io5";
 import '../component/ProductPage.scss'
 import { IoStarOutline } from "react-icons/io5";
+import Nav from './nav';
 
 function ProductPage() {
     return(
         <div>
+            <Nav />
             <div className='carts'>
                 <div className='cartshoe'>
                     <img src={frame4} alt='frame'/>
@@ -25,8 +27,8 @@ function ProductPage() {
                     <h3><FaNairaSign />120,000</h3>
                     <p><IoStar /><IoStar /><IoStar /><IoStarOutline /><IoStarOutline /></p>
                     <div className='cartbutton'>
-                        <button className='addcart'>ADD TO CART</button>
-                        <button className='buynow'>BUY NOW</button>
+                        <button className='addcart'><a href='/cart'>ADD TO CART</a></button>
+                        <button className='buynow'><a href='/order'>BUY NOW</a></button>
                     </div>
                     
                 </div>

@@ -1,44 +1,47 @@
 .order-summary{
-    
-    // width: 654px;
-    height: 566px;
-    display: flex;
-    flex-direction: column;
-    // justify-content: flex-start;
     align-items: center;
     gap: 22px;
-    margin: 11px 433px 19px;
-    padding: 0;
+    margin: 51px 433px 19px;
+    padding: 20px;
     background-color: #fafafa;
     .product{
-        height: 136px;
-        // align-self: stretch;
-        // flex-grow: 0;
         display: flex;
-        // justify-content: space-between;
-        padding: 0px 40px;
+        gap: 10px;
         border-radius: 10px;
         background-color: #fff;
       
     }
     .payment{
         display: flex;
+        background-color: white;
         gap: 5px;
-        margin: 0px;
-        padding: 0px;
-        // align-items: center;
-        // justify-content: center;
+        height: 40px;
+        margin: 5px;
+        padding: 0px 10px 10px 10px;
+        border-radius: 5px;
+
         
         .circle{
             padding-top: 22px;
         }
     }
     .payy{
-        margin: 19px 433px 0;
-        width: 574px;
-        height: 44px;
+        margin: 19px 153px 0;
+        width: 384px;
+        height: 40px;
         padding: 10px;
+        border: 0;
         border-radius: 10px;
         background-color: #feac00
+    }
+    a{
+        text-decoration: none;
+        font-size: 16px;
+        color: black;
+
+    }
+    a:hover{
+        font-size: 20px;
+        
     }
 }

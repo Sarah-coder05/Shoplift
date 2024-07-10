@@ -2,10 +2,13 @@ import '../component/order.scss'
 import { FaRegCircle } from "react-icons/fa";
 import { FaNairaSign } from "react-icons/fa6";
 import { FaRegDotCircle } from "react-icons/fa";
+import Nav from './nav';
 
 function Order() {
     return(
-        <div className='order-summary'>
+        <div>
+            <Nav/>
+            <div className='order-summary'>
             <h3>Summary of Order</h3>
             <div className='product'>
                 <div>
@@ -35,7 +38,8 @@ function Order() {
                     <p>Pay with Bank Transfer/USSD</p>
                 </div>
             </div>
-           <button className='payy'>PAY</button>
+           <button className='payy'><a href='/otp'>PAY</a></button>
+            </div>
         </div>
     );
 }

@@ -1,69 +1,4 @@
 
-nav{
-    text-decoration: none;
-    display: flex;
-    justify-content: space-around;
-    background-color: #efefef;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    
-    ul{
-        list-style-type: none;
-        font-size: 20px;
-        .dropdown{
-            color: black;
-            padding-top: 6px;
-        }
-        .categories{
-            width: 156px;
-            height: 44px;
-            display: flex;
-            flex-direction: row;
-            justify-content: flex-start;
-            align-items: center;
-            gap: 10px;
-            margin: 10px 30px 10px 52px;
-            padding: 0px 12px;
-        }
-      
-        .search{
-            width: 480px;
-            height: 52px;
-            display: flex;
-            align-items: center;
-            gap: 9px;
-            margin: 6px 2px 6px 30px;
-            padding: 14px 15px;
-            border-radius: 20px;
-            background-color: #fff;
-        }
-    }
-    .categories-search{
-        display: flex;
-    }
-    .account-cart{
-        display: flex;
-        gap: 30px;
-        .account{
-            width: 169px;
-            height: 48px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            padding: 10px 12px;
-        }
-        .cart{
-            width: 99px;
-            height: 44px;
-            display: flex;
-            gap: 10px;
-            align-items: center;
-            padding: 10px 12px;
-        }
-    }
-}
-
 .second-top{
     background-image: url('./Asset/Frame 8.png');
     background-size: cover;
@@ -75,6 +10,7 @@ nav{
     top: 0;
     left: 0;
     z-index: 0;
+    
     .onestop{
         background-image: url('./Asset/Rectangle 1 (1).png');
         background-size: cover;
@@ -127,6 +63,13 @@ p{
             padding: 15px;
             border-radius: 20px;
             background-color: #f1f1f1;
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            a:hover{
+                font-size: 100px;
+            }
         }
     }
 }

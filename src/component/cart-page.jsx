@@ -5,10 +5,12 @@ import frame4 from './Asset/Rectangle s7.png';
 import frame1 from './Asset/Rectangle s4.png';
 import { PiLineVerticalLight } from "react-icons/pi";
 import { FaNairaSign } from "react-icons/fa6";
+import Nav from './nav';
 
 function CartPage(){
     return(
         <div >
+            <Nav />
             <h2 className='mycart'>My Cart (1)</h2>
             <div className='ordersummary'>
             <div className='my-cart'>
@@ -34,7 +36,7 @@ function CartPage(){
                                 <span>1</span>
                                 <button className='button-one'>+</button>
                             </div>
-                            <button className='checkout'>PROCEED TO CHECKOUT</button>
+                            <button className='checkout'><a href='/order'>PROCEED TO CHECKOUT</a></button>
                         </div>
                     </div>
                 </div>
