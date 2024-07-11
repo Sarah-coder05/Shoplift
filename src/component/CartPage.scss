@@ -62,3 +62,24 @@
         }
     }
 }
+
+@media (max-width: 768px){
+    .ordersummary{
+        flex-direction: column;
+        margin: 5px auto;
+        .my-cart{
+            flex-direction: column;
+            width: 85%;
+            margin: 20px;
+
+           .cartshoe{
+            text-align: left;
+           }
+        }
+
+        .order{
+            width: 85%;
+            margin: auto;
+        }
+    }
+}

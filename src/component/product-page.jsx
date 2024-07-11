@@ -14,12 +14,14 @@ function ProductPage() {
         <div>
             <Nav />
             <div className='carts'>
-                <div className='cartshoe'>
-                    <img src={frame4} alt='frame'/>
-                    <img src={frame2} alt='frame'/>
-                    <img src={frame3} alt='frame'/>
+                <div className='carts_img'>
+                    <div className='cartshoe'>
+                        <img src={frame4} alt='frame'/>
+                        <img src={frame2} alt='frame'/>
+                        <img src={frame3} alt='frame'/>
+                    </div>
+                    <img src={frame1} alt='frame'/>
                 </div>
-                <img src={frame1} alt='frame'/>
                 <div>
                     <h3>ADIDAS Originals Sneakers Stan Smith<br/>Bold Women</h3>
                     <p>Brand New Collection<PiLineVerticalLight />15% off with a coupon</p>
