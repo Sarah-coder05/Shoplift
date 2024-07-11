@@ -3,7 +3,7 @@
     background-image: url('./Asset/Frame 8.png');
     background-size: cover;
     display: flex;
-    margin: 0 auto;
+    margin: 100px 30px;
     justify-content: space-around;
     position: absolute;
     width: 97%;
@@ -55,7 +55,6 @@ p{
     .hot-deals{
         display: flex;
         gap: 16px;
-        flex-wrap: wrap;
         justify-content: center;
        
         .deals{
@@ -76,7 +75,6 @@ p{
 }
 .collections{
     display: flex;
-    flex-wrap: wrap;
     gap: 25px;
     margin: 17px 60px 0 59px;
     padding: 19px 22px;
